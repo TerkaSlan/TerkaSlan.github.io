@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://terkaslan.github.io/sitemap.xml 
