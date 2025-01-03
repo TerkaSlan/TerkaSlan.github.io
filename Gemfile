@@ -6,10 +6,11 @@ gem "github-pages", "~> 228"
 gem "webrick"
 
 # Windows specific gems
-platforms :mingw, :x64_mingw, :mswin do
+platforms :mingw, :x64_mingw, :mswin, :x64_mingw_ucrt, :ruby, :x86_64-linux do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
   gem 'wdm', '>= 0.1.1', platforms: [:mingw, :x64_mingw, :mswin]
+  gem "minimal-mistakes-jekyll"
 end
 
 # Jekyll plugins
@@ -21,6 +22,3 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
 end
-
-# Add this line to your existing Gemfile
-gem "minimal-mistakes-jekyll"
