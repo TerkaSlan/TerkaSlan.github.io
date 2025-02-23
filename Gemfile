@@ -24,3 +24,7 @@ end
 
 # Add this line to your existing Gemfile
 gem "minimal-mistakes-jekyll"
+
+platform :x86_64_linux do
+  # gems specific to this platform
+end
