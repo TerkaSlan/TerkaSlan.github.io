@@ -11,6 +11,7 @@
 }
 
 .page__hero--overlay {
+  background-color: #e3cdcb !important;
   .wrapper {
     padding-left: 1em;
     padding-right: 1em;
@@ -33,7 +34,7 @@
 
 // Adjust header styles
 h1, h2, h3 {
-  color: #333;
+  color: #853c32;
   font-weight: 300;
 }
 
@@ -42,21 +43,86 @@ h1, h2, h3 {
   text-align: center;
   margin: 2em 0;
   padding: 20px;
-  background: #fff;
+  background: #e3cdcb;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   
   #qrcode {
     display: inline-block;
     padding: 15px;
-    background: white;
+    background: #e3cdcb;
     border-radius: 4px;
     margin-bottom: 15px;
   }
   
   p {
-    color: #666;
+    color: #e3cdcb;
     margin: 10px 0 0;
     font-size: 0.9em;
+  }
+}
+
+.page__title {
+  font-size: 1.5em !important;
+}
+
+.center-image {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;  // space between images
+  img {
+    width: 30%;
+    height: auto;
+  }
+}
+
+body {
+  background-color: #e3cdcb;
+}
+
+header {
+  background-color: #853c32;
+}
+
+// Footer
+.page__footer {
+  background-color: #e3cdcb !important;
+  color: #853c32 !important;
+  
+  a {
+    color: #853c32 !important;
+    &:hover {
+      color: #666 !important;
+    }
+  }
+}
+
+// Navigation
+.masthead {
+  background-color: #e3cdcb !important;
+  border-bottom: 1px solid #d4b5b3;
+  
+  &__inner-wrap {
+    padding: 0.5em;
+  }
+  
+  .greedy-nav {
+    background-color: #e3cdcb !important;
+    
+    a {
+      color: #853c32 !important;
+      &:hover {
+        color: #853c32 !important;
+      }
+    }
+  }
+}
+
+// Custom button style
+.btn--primary {
+  background-color: #853c32 !important;
+  &:hover {
+    background-color: darken(#853c32, 10%) !important;
   }
 }
