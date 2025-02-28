@@ -23,7 +23,7 @@ excerpt: "Ukladaj do kalendára: 13.9.2025"
 
 Program:
 - 13:00 obrad v Třebíči ve [foyer divadla Pasáž](https://maps.app.goo.gl/R5DG7n1jPBQma1NDA)
-- ~14:00 obed v [Adam's Bar & Bistro (Třebíč)](https://maps.app.goo.gl/yB9VxKXSJqXu7pMt9)
+- 14:30 obed v [Adam's Bar & Bistro (Třebíč)](https://maps.app.goo.gl/yB9VxKXSJqXu7pMt9)
 - 15:00-18:00 voľný program
 - 18:00 večerný raut a zábava [na mlýně (Trnava 12)](https://maps.app.goo.gl/VnRFq3o5tSARwx5F9)
 - večená zábava už nebude vyžadovať sviatočné oblečenie, príď tak, aby ti to slušelo a zároveň si sa cítil(a) dobre (a samozrejme podľa počasia, budeme pod strechou, ale vonku)
