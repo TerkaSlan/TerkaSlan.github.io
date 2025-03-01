@@ -33,5 +33,3 @@ defaults:
 locale: "sk-SK"
 minimal_mistakes_skin: "default"
 search: false
-
-theme: minimal-mistakes-jekyll
