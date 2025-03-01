@@ -16,7 +16,7 @@ excerpt: "Ukladaj do kalendára: 13.9.2025"
 ---
 
 <div style="text-align: center;">
-  <a href="https://forms.gle/BAPCpj99w44feKZz7" class="btn btn--primary btn--large" target="_blank">Účasť/neúčasť potvrď vyplnením formuláru</a>
+  <a href="https://forms.gle/BAPCpj99w44feKZz7" class="btn btn--primary btn--large" target="_blank">Účasť/neúčasť potvrď vyplnením tohto formuláru</a>
 </div>
 
 ## Som rodina
