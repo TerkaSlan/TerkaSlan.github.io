@@ -1,1 +1,1 @@
-Sitemap: https://terkaslan.github.io/TerkaSlan.github.io/sitemap.xml
+Sitemap: /sitemap.xml
