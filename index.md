@@ -22,7 +22,8 @@ excerpt: "Ukladaj do kalendára: 13.9.2025"
 ## Som rodina
 
 Program:
-- 13:00 obrad v Třebíči v [malovaném domě](https://maps.app.goo.gl/cxz8dVoiEUdPuXEQ8), parkovat sa dá u radnice
+- 13:00 obrad v Třebíči v [Malovaném domě](https://maps.app.goo.gl/cxz8dVoiEUdPuXEQ8), parkovat sa dá u radnice
+- 13:30-14:30 spoločnéfotenie
 - 14:30 obed v [Adam's Bar & Bistro (Třebíč)](https://maps.app.goo.gl/yB9VxKXSJqXu7pMt9)
 - 15:30-18:00 voľný program
 - 18:00 večerný raut a zábava [na mlýně (Trnava 12)](https://maps.app.goo.gl/VnRFq3o5tSARwx5F9)
