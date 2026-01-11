@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi! I am Terezia Slaninakova, a Ph.D. candidate (finishing in Q1-Q2 of 2026) and a researcher at Masaryk University, Brno, Czech Republic. 
+Hi! I am Terezia Slaninakova, Ph.D. candidate (finishing in 2026) and researcher at Masaryk University, Brno, Czech Republic. 
 
 I am focused on creating useful end-to-end applications for processing of complex data.
 
