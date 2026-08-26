@@ -14,5 +14,11 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Students"
+    url: /students/
+
+  - title: "Talks"
+    url: /talks/
+
   # - title: "CV"
   #   url: /cv-json/

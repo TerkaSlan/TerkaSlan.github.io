@@ -69,9 +69,25 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  margin-bottom: 1em;
   img {
     width: 100%;
   }
+}
+
+/* list view: thumbnail left, text flows beside it */
+.list__item .archive__item {
+  overflow: hidden;
+}
+
+.list__item .archive__item-title {
+  margin-top: 0;
+}
+
+.list__item .archive__item-teaser {
+  float: left;
+  width: 220px;
+  margin: 0 1.5em 1em 0;
 }
 
 .archive__item:hover {

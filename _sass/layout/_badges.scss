@@ -1,0 +1,33 @@
+/* Small tag badges (student degree, talk status, awards) */
+.student-badge {
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.1em 0.55em;
+    font-size: 0.7em;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #fff;
+    background-color: var(--global-base-color);
+    border-radius: 4px;
+    vertical-align: baseline;
+
+    &--master {
+        background-color: #62c462;
+    }
+
+    &--high-school {
+        background-color: #f89406;
+    }
+
+    &--award {
+        background-color: #b8860b;
+    }
+
+    &--upcoming {
+        background-color: #7a8288;
+    }
+
+    &--dissertation {
+        background-color: #5c3c99;
+    }
+}

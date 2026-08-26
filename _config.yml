@@ -24,9 +24,9 @@ repository               : "TerkaSlan/terkaslan.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Terezia Slaninakova"
+  name             : "Terezia Slaninakova, Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. candidate at Masaryk University"
+  bio              : "Researcher at Masaryk University"
   location         : "Brno, Czechia"
   employer         : "Masaryk University"
   uri              : # URL
@@ -230,6 +230,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  students:
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -280,6 +282,15 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+  # _students
+  - scope:
+      path: ""
+      type: students
     values:
       layout: single
       author_profile: true
