@@ -28,13 +28,15 @@
     <h2 class="archive__item-title" itemprop="headline">
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>{% if post.upcoming %}
         <span class="student-badge student-badge--upcoming">upcoming</span>
+      {% endif %}{% if post.language %}
+        <span class="student-badge student-badge--language">{{ post.language }}</span>
       {% endif %}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% if post.link %} &mdash; <a href="{{ post.link }}">link</a>{% endif %}</p>{% endif %}
+    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% if post.link or post.slides %} &mdash; {% if post.link %}<a href="{{ post.link }}">link</a>{% endif %}{% if post.slides %}{% if post.link %} &middot; {% endif %}<a href="{{ post.slides }}">{{ post.slides_label | default: "slides" }}</a>{% endif %}{% endif %}</p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
