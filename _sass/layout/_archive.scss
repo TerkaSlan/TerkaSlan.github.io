@@ -100,6 +100,11 @@
   }
 }
 
+/* Talk titles are plain text, not links: no underline on hover */
+.talk__item:hover .archive__item-title {
+  text-decoration: none;
+}
+
 
 /*
    List view

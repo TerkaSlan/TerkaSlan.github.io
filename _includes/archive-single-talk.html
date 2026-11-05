@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: "list" }}__item talk__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -36,7 +36,7 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% if post.link or post.slides %} &mdash; {% if post.link %}<a href="{{ post.link }}">link</a>{% endif %}{% if post.slides %}{% if post.link %} &middot; {% endif %}<a href="{{ post.slides }}">{{ post.slides_label | default: "slides" }}</a>{% endif %}{% endif %}</p>{% endif %}
+    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% if post.link or post.slides %} &mdash; {% if post.link %}<a href="{{ post.link }}">event link</a>{% endif %}{% if post.slides %}{% if post.link %} &middot; {% endif %}<a href="{{ post.slides }}">{{ post.slides_label | default: "slides" }}</a>{% endif %}{% endif %}</p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "Agentic systems for software development"
+title: "Vývoj s AI agentmi a ako z nich vyťažiť čo najviac"
 collection: talks
 type: "Talk"
 venue: "MetaCentrum seminar"
