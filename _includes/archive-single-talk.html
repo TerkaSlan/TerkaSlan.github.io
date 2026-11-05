@@ -26,7 +26,7 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>{% if post.upcoming %}
+      {{ title }}{% if post.upcoming %}
         <span class="student-badge student-badge--upcoming">upcoming</span>
       {% endif %}{% if post.language %}
         <span class="student-badge student-badge--language">{{ post.language }}</span>
