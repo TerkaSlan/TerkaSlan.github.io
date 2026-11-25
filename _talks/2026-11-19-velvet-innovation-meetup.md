@@ -5,7 +5,8 @@ type: "Talk"
 venue: "Velvet Innovation Meetup"
 location: "Brno"
 date: 2026-11-19
-upcoming: true
 language: "Slovak"
 link: "https://www.velvetinnovation.com/cs/meetupy/velvet-innovation-meetup-listopad-2027"
+slides: "/files/slaninakova_dark_matter.pptx"
+slides_label: "slides (.pptx)"
 ---
